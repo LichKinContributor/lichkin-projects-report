@@ -20,6 +20,18 @@
       <artifactId>lichkin-projects-core-common</artifactId>
       <version>${com.lichkin.projects.core.version}</version>
     </dependency>
+    <!-- lichkin projects app -->
+    <dependency>
+      <groupId>com.lichkin.projects</groupId>
+      <artifactId>lichkin-projects-app-common</artifactId>
+      <version>${com.lichkin.projects.app.version}</version>
+    </dependency>
+    <!-- lichkin projects temporary -->
+    <dependency>
+      <groupId>com.lichkin.projects</groupId>
+      <artifactId>lichkin-projects-temporary-common</artifactId>
+      <version>${com.lichkin.projects.temporary.version}</version>
+    </dependency>
   </dependencies>
 
 </project>

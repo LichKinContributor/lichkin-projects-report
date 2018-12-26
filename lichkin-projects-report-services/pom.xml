@@ -25,6 +25,18 @@
       <artifactId>lichkin-projects-core-services</artifactId>
       <version>${com.lichkin.projects.core.version}</version>
     </dependency>
+    <!-- lichkin projects app -->
+    <dependency>
+      <groupId>com.lichkin.projects</groupId>
+      <artifactId>lichkin-projects-app-services</artifactId>
+      <version>${com.lichkin.projects.app.version}</version>
+    </dependency>
+    <!-- lichkin projects temporary -->
+    <dependency>
+      <groupId>com.lichkin.projects</groupId>
+      <artifactId>lichkin-projects-temporary-services</artifactId>
+      <version>${com.lichkin.projects.temporary.version}</version>
+    </dependency>
     <!-- lichkin projects report -->
     <dependency>
       <groupId>com.lichkin.projects</groupId>
