@@ -1,9 +1,8 @@
 package com.lichkin.springframework.entities.impl;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 
-import com.lichkin.springframework.entities.suppers.BaseSummaryAmountEntity;
+import com.lichkin.springframework.entities.suppers.BaseStatisticsCountSumEntity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,13 +14,9 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class SysSumParkingLotAmountEntity extends BaseSummaryAmountEntity {
+public class SysSumParkingLotAmountEntity extends BaseStatisticsCountSumEntity {
 
 	/** serialVersionUID */
 	private static final long serialVersionUID = 77003L;
-
-	/** 车位数量 */
-	@Column(nullable = false)
-	private Integer cnt;
 
 }

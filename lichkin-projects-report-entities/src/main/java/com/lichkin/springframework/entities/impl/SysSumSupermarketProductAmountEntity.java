@@ -3,7 +3,7 @@ package com.lichkin.springframework.entities.impl;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
-import com.lichkin.springframework.entities.suppers.BaseSummaryAmountEntity;
+import com.lichkin.springframework.entities.suppers.BaseStatisticsSumEntity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +15,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class SysSumSupermarketProductAmountEntity extends BaseSummaryAmountEntity {
+public class SysSumSupermarketProductAmountEntity extends BaseStatisticsSumEntity {
 
 	/** serialVersionUID */
 	private static final long serialVersionUID = 77006L;

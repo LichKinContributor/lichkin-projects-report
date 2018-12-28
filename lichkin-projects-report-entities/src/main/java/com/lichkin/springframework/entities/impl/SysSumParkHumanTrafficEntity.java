@@ -2,7 +2,7 @@ package com.lichkin.springframework.entities.impl;
 
 import javax.persistence.Entity;
 
-import com.lichkin.springframework.entities.suppers.BaseSummaryEntity;
+import com.lichkin.springframework.entities.suppers.BaseStatisticsCountEntity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -14,7 +14,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class SysSumParkHumanTrafficEntity extends BaseSummaryEntity {
+public class SysSumParkHumanTrafficEntity extends BaseStatisticsCountEntity {
 
 	/** serialVersionUID */
 	private static final long serialVersionUID = 77002L;
