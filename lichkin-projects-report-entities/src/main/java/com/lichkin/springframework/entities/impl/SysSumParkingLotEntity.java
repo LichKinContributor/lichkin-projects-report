@@ -9,19 +9,19 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * 超市产品收入统计表实体类
+ * 停车场车流量及收入金额统计表实体类
  * @author SuZhou LichKin Information Technology Co., Ltd.
  */
 @Getter
 @Setter
 @Entity
-public class SysSumSupermarketProductAmountEntity extends BaseStatisticsEntity {
+public class SysSumParkingLotEntity extends BaseStatisticsEntity {
 
 	/** serialVersionUID */
-	private static final long serialVersionUID = 77006L;
+	private static final long serialVersionUID = 77003L;
 
-	/** 产品ID(SysPssProductEntity.ID) */
-	@Column(length = 64, nullable = false)
-	private String productId;
+	/** 车位数 */
+	@Column(nullable = false)
+	private Integer parkingLotCount;
 
 }

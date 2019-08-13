@@ -3,19 +3,19 @@ package com.lichkin.springframework.entities.impl;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
-import com.lichkin.springframework.entities.suppers.BaseStatisticsCountEntity;
+import com.lichkin.springframework.entities.suppers.BaseStatisticsEntity;
 
 import lombok.Getter;
 import lombok.Setter;
 
 /**
- * 厕所人流量汇总表实体类
+ * 厕所人流量统计表实体类
  * @author SuZhou LichKin Information Technology Co., Ltd.
  */
 @Getter
 @Setter
 @Entity
-public class SysSumToiletHumanTrafficEntity extends BaseStatisticsCountEntity {
+public class SysSumToiletHumanTrafficEntity extends BaseStatisticsEntity {
 
 	/** serialVersionUID */
 	private static final long serialVersionUID = 77008L;
